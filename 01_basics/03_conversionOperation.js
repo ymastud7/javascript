@@ -20,3 +20,22 @@ console.log(booleanIsLoggedIn)
 let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber)
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+let str1 = "hello"
+let str2 = " yash"
+let str3 = str1 + str2
+console.log(str3)
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 + 3)
+console.log(1 + 2 + "3")
+
+// ECMA script concepts
+// for the first 2 the type will be string
+// for 3rd the ans will be 123 as the first one is string
+// for 4th the ans will be 33 as it adds first and then adds the string
