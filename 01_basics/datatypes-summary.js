@@ -36,13 +36,15 @@ console.log(typeof heros) //object
 console.log(typeof myObj) //object
 console.log(typeof myFunction) //function-object
 
-// Stack(primitive) and Heap Memory(non-primitive)
+// Stack(primitive)
 
 let num1 = 100;
 let num2 = num1;
 num2 = 200;
-console.log(num1)
-console.log(num2)
+console.log(num1) //100
+console.log(num2) //200
+
+// Heap Memory(non-primitive)
 
 let user1 = {
     name: "Yash",
@@ -53,5 +55,5 @@ let user2 = user1;
 
 user2.phoneNumber = 67890
 
-console.log(user1.phoneNumber)
-console.log(user2.phoneNumber)
+console.log(user1.phoneNumber) //67890
+console.log(user2.phoneNumber) //67890
